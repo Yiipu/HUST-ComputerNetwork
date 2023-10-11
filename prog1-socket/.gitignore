@@ -1,0 +1,10 @@
+/.vs/
+/x64/
+
+*.sln
+*.vcxproj*
+
+*.exe
+
+log.txt
+config.txt
