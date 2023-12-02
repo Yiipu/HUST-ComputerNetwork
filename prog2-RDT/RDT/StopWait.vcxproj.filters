@@ -133,7 +133,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
     <Text Include="..\input.txt">
       <Filter>资源文件</Filter>
     </Text>
