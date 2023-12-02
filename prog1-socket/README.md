@@ -2,7 +2,7 @@
 
 ## 配置
 
-运行之前自行创建两个文本文档 `config.txt` 和 `log.txt`
+运行之前在根目录自行创建两个文件 `config.txt` 和 `log.txt`
 
 `config.txt` 示例配置：
 
@@ -22,4 +22,4 @@
 
 ## 资源
 
-资源文件夹内的文件都可以通过链接 `IP:PORT/` 获取。
+资源文件夹内的文件都可以通过链接 `IP:PORT/` 获取。如果PORT为80，那么通过 `IP:PORT` 可以直接获取 `index.html` 。
