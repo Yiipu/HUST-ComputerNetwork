@@ -16,9 +16,9 @@
 #include <map>
 
 // 使用自动测试程序时，取消下面行的注释，并将 choice 定义为要检查的协议名（SW/GNB/SR）
-// #define choice "SW"
-#define FILE_PATH_INPUT "..\\input.txt"
-#define FILE_PATH_OUTPUT "..\\output.txt"
+// #define choice "TCP"
+#define FILE_PATH_INPUT "input.txt"
+#define FILE_PATH_OUTPUT "output.txt"
 #define RUN_MODE 1 //控制提示信息。1是安静模式，0是详细模式
 
 int main(int argc, char* argv[])
