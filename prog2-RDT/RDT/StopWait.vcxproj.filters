@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="头文件\GBN">
+      <UniqueIdentifier>{beeb8ea8-6251-4760-9e6b-e70d5b689caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GBN">
+      <UniqueIdentifier>{47df4b81-c47c-4bbd-ae81-2024f4f854c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SW">
+      <UniqueIdentifier>{42afe313-02d3-46df-8804-b316b88afd71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SW">
+      <UniqueIdentifier>{f06c1717-175c-4f4c-84ae-bc99c2ed93fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SR">
+      <UniqueIdentifier>{8cc6e408-e3d3-4014-82d4-b2cc1af30425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SR">
+      <UniqueIdentifier>{45ed52e7-725f-4648-98e6-b65e47e5f9d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util">
+      <UniqueIdentifier>{b6275746-bc58-4b4a-b247-8c25c75de8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\TCP">
+      <UniqueIdentifier>{f8abf274-60a0-4656-90e6-8c51f0a821f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TCP">
+      <UniqueIdentifier>{72610a08-6482-43f8-977b-f0f8d24074c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GoBackNRdtReceiver.cpp">
+      <Filter>源文件\GBN</Filter>
+    </ClCompile>
+    <ClCompile Include="GoBackNRdtSender.cpp">
+      <Filter>源文件\GBN</Filter>
+    </ClCompile>
+    <ClCompile Include="StopWaitRdtReceiver.cpp">
+      <Filter>源文件\SW</Filter>
+    </ClCompile>
+    <ClCompile Include="StopWaitRdtSender.cpp">
+      <Filter>源文件\SW</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectiveRepeatRdtReceiver.h">
+      <Filter>头文件\SR</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectiveRepeatRdtSender.cpp">
+      <Filter>源文件\SR</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectiveRepeatRdtReceiver.cpp">
+      <Filter>源文件\SR</Filter>
+    </ClCompile>
+    <ClCompile Include="myTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TransmissionControlRdtReceiver.cpp">
+      <Filter>源文件\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="TransmissionControlRdtSender.cpp">
+      <Filter>源文件\TCP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataStructure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GoBackNRdtReceiver.h">
+      <Filter>头文件\GBN</Filter>
+    </ClInclude>
+    <ClInclude Include="GoBackNRdtSender.h">
+      <Filter>头文件\GBN</Filter>
+    </ClInclude>
+    <ClInclude Include="StopWaitRdtReceiver.h">
+      <Filter>头文件\SW</Filter>
+    </ClInclude>
+    <ClInclude Include="StopWaitRdtSender.h">
+      <Filter>头文件\SW</Filter>
+    </ClInclude>
+    <ClInclude Include="RdtReceiver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RdtSender.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectiveRepeatRdtSender.h">
+      <Filter>头文件\SR</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkService.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomEventEnum.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="myTool.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="TransmissionControlRdtReceiver.h">
+      <Filter>头文件\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="TransmissionControlRdtSender.h">
+      <Filter>头文件\TCP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="..\input.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="..\output.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
