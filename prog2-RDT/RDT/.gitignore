@@ -1,3 +1,11 @@
+/Debug/
 /.vs/
 /x64/
-/Debug/
+
+*.sln
+*.vcxproj*
+
+*.exe
+
+log.txt
+config.txt
